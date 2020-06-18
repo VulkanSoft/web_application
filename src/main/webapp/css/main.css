@@ -1,0 +1,302 @@
+/* basic rules */
+body {
+    font-family: 'Jura', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+}
+
+h2 {
+    text-align: center;
+}
+
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+/*first screen*/
+.header {
+    background: linear-gradient(0.25turn, #ffc821, #ff5921, #666666);
+    color: #000;
+    padding-top: 30px;
+    padding-bottom: 0px;
+}
+.header2 {
+    background: #ffc821;
+    color: #000;
+    padding-top: 10px;
+    padding-bottom: 120px;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+.menu {
+
+}
+
+.menu__item {
+    margin: 0 60px;
+}
+
+.menu__item a {
+    font-size: 26px;
+    font-weight: 500;
+    color: #000;
+}
+
+.login {
+    text-align: center;
+    padding-top: 0px;
+}
+
+.login a {
+    font-size: 28px;
+    font-weight: 500;
+    color: #000;
+}
+
+.login a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.login a:focus {
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu__item a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu__item a:focus {
+    text-decoration: none;
+    color: #fff;
+}
+
+.main {
+    margin-top: 50px;
+}
+
+.main__title {
+    font-size: 32px;
+    text-align:right;
+}
+
+.main__intro {
+    text-align:right;
+    font-size: 24px;
+    line-height: 1.5em;
+    width: 100%;
+}
+
+.main__text {
+    text-align:right;
+    font-size: 20px;
+    line-height: 1.3em;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.community {
+    width: 550px;
+    display: block;
+    margin: 0px auto 0;
+}
+.icons__item {
+    margin-left: 50px;
+    text-align: right;
+    display: inline-block;
+}
+
+/*second screen*/
+
+.title{
+    padding-top:100px;
+    padding-bottom: 80px;
+    font-size:40px;
+    text-align: center;
+}
+
+.title__main{
+    font-size: 30px;
+}
+
+.title__text{
+    font-size: 20px;
+    font-weight: 300;
+    width: 800px;
+    margin: 0 auto;
+}
+.feature{
+    margin-bottom: 70px;
+    text-align:center;
+    width:100%;
+
+}
+.feature__icon {
+    margin-right:30px;
+}
+
+.feature__text{
+    color: #3d3d3d;
+}
+/* Footer */
+
+.touch{
+    background: black;
+    color: white;
+}
+.footer{
+    background: linear-gradient(#ff5921, #666666);
+    padding-bottom: 50px;
+}
+.credits{
+    color:white;
+    font-size: 20px;
+    text-align:center;
+    padding-top: 50px;
+    width: 150px;
+    margin:0 auto;
+}
+.tg {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-color: #ccc;
+}
+
+.tg td {
+    font-size: 14px;
+    padding: 10px 5px;
+    border-style: solid;
+    border-width: 1px;
+    overflow: hidden;
+    word-break: normal;
+    border-color: #ccc;
+    color: #333;
+    background-color: #fff;
+}
+
+.tg th {
+    font-size: 14px;
+    font-weight: normal;
+    padding: 10px 5px;
+    border-style: solid;
+    border-width: 1px;
+    overflow: hidden;
+    word-break: normal;
+    border-color: #ccc;
+    color: #333;
+    background-color: #f0f0f0;
+}
+
+@media screen and (max-width:767px){
+    #footer h5 {
+        padding-left: 0;
+        border-left: transparent;
+        padding-bottom: 0px;
+        margin-bottom: 10px;
+    }
+    .title__text{
+        width: auto;
+    }
+}
+
+@media screen and (max-width:1023px){
+    .main {
+        text-align: center;
+    }
+    .main__intro {
+        width: auto;
+    }
+    .main__text {
+        width: auto;
+    }
+    .title{
+        width: auto;
+    }
+    .title__main{
+        width: auto;
+    }
+    .feature__block{
+        width: auto;
+    }
+    .feature{
+        width: auto;
+
+    }
+    .feature__icon {
+        width: auto;
+    }
+
+    .feature__text{
+        width: auto;
+}
+    .title__text{
+        width: auto;
+    }
+
+@media screen and (max-width:991px){
+    .community {
+        width: 100%;
+        display: block;
+        margin: 50px auto 0;
+    }
+    .feature__block{
+        width: auto;
+    }
+    .feature{
+        width: auto;
+
+    }
+    .feature__icon {
+        width: auto;
+    }
+
+    .feature__text{
+        width: auto;
+}
+    .title__text{
+        width: auto;
+    }
+
+@media screen and (max-width:424px){
+    .menu {
+        flex-direction: column;
+        text-align: center;
+    }
+    .menu__item {
+        margin-bottom: 10px;
+    }
+    .title{
+        width: auto;
+    }
+    .title__main{
+        width: auto;
+    }
+    .title__text{
+        width: auto;
+    }
+    .feature__block{
+        width: auto;
+    }
+    .feature{
+        width: auto;
+
+    }
+    .feature__icon {
+        width: auto;
+    }
+
+    .feature__text{
+        width: auto;
+}
